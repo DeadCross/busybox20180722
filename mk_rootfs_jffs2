@@ -1,0 +1,4 @@
+mkfs.jffs2 -n -s 2048 -e 128KiB -d rootfs -o rootfs.jffs2;
+#mkfs.jffs2 -n -s 512 -e 16KiB -d rootfs -o rootfs.jffs2;
+#mkfs.jffs2 -r ./rootfs/ -o rootfs.jffs2;
+cp rootfs.jffs2 ~/share;
